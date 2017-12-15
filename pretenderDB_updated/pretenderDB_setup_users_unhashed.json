@@ -1,0 +1,231 @@
+
+	{
+		"_id" : 1,
+		"username" : "Abi00",
+		"password" : "abi",
+		"role" : "registered",
+		"profile" : {
+			"firstname": "Abigail",
+			"lastname" : "Anderson",
+			"birth date" : "1980/10/12",
+			"place of birth" : "Australia",
+			"nationality" : "Australian",
+			"email" : "abigail.a@yahoo.com",
+			"address" : {
+				"postcode" : 2361,
+				"country" : "Australia",
+				"city" : "Ashford",
+				"street" : "Duff St",
+				"house number" : 27,
+				"state" : "New South Wales"
+			}
+		},
+		"tenders" : [1,3,4]
+	}
+	{
+		"_id" : 2,
+		"username" : "Bruce22",
+		"password" : "bruce",
+		"role" : "registered",
+		"profile" : {
+			"firstname": "Bruce",
+			"lastname" : "Borough",
+			"birth date" : "1965/03/8",
+			"place of birth" : "Bolivia",
+			"nationality" : "Bolivian",
+			"email" : "bb109@gmail.com",
+			"address" : {
+				"postcode" : 2361,
+				"country" : "Bolivia",
+				"city" : "Baures",
+				"street" : "Silvana St",
+				"house number" : 33,
+				"state" : null
+			}
+		},
+		"tenders" : []
+	}
+	{
+		"_id" : 3,
+		"username" : "Cecil",
+		"password" : "cecil123",
+		"role" : "registered",
+		"profile" : {
+			"firstname": "Cecilia",
+			"lastname" : "Cage",
+			"birth date" : "1993/06/26",
+			"place of birth" : "Croatia",
+			"nationality" : "Croatian",
+			"email" : "littletinkle@yahoo.hr",
+			"address" : {
+				"postcode" : 3535,
+				"country" : "Hungary",
+				"city" : "Debrecen",
+				"street" : "Klinika St",
+				"house number" : 14,
+				"state" : null
+			}
+		},
+		"tenders" : [5,6]
+	}
+	{
+		"_id" : 4,
+		"username" : "ditteditte",
+		"password" : "ditte",
+		"role" : "registered",
+		"profile" : {
+			"firstname": "Ditte",
+			"lastname" : "Dorson",
+			"birth date" : "1988/12/04",
+			"place of birth" : "Denmark",
+			"nationality" : "Danish",
+			"email" : "d.dorson33@armyspy.com",
+			"address" : {
+				"postcode" : 4466,
+				"country" : "Sweden",
+				"city" : "Stockholm",
+				"street" : "Hantverkargatan St",
+				"house number" : 86,
+				"state" : null
+			}
+		},
+		"tenders" : [2,7]
+	}
+	{
+		"_id" : 5,
+		"username" : "Edgar751",
+		"password" : "eddy",
+		"role" : "registered",
+		"profile" : {
+			"firstname": "Edgar",
+			"lastname" : "Emerith",
+			"birth date" : "1992/09/27",
+			"place of birth" : "United States",
+			"nationality" : "American",
+			"email" : "eddyemy@inbox.us",
+			"address" : {
+				"postcode" : 5555,
+				"country" : "United States",
+				"city" : "Montgomery",
+				"street" : "Oak St",
+				"house number" : 33,
+				"state" : "Alabama"
+			}
+		},
+		"tenders" : [8]
+	}
+	{
+		"_id" : 6,
+		"username" : "Fr3d",
+		"password" : "freddy",
+		"role" : "registered",
+		"profile" : {
+			"firstname": "Frederick",
+			"lastname" : "Fitzmorphy",
+			"birth date" : "1979/01/02",
+			"place of birth" : "United States",
+			"nationality" : "American",
+			"email" : "wheretosendffmail@horus.com",
+			"address" : {
+				"postcode" : 6666,
+				"country" : "United States",
+				"city" : "Salt Lake City",
+				"street" : "Hempstead St",
+				"house number" : 6,
+				"state" : "Utah"
+			}
+		},
+		"tenders" : [9,10]
+	}
+	{
+		"_id" : 7,
+		"username" : "GaleGG",
+		"password" : "password123",
+		"role" : "registered",
+		"profile" : {
+			"firstname": "Gale",
+			"lastname" : "Gambit",
+			"birth date" : "2000/07/13",
+			"place of birth" : "United States",
+			"nationality" : "American",
+			"email" : "galegambit@gmail.com",
+			"address" : {
+				"postcode" : 7777,
+				"country" : "United States",
+				"city" : "Los Angeles",
+				"street" : "Fedora St",
+				"house number" : 1028,
+				"state" : "California"
+			}
+		},
+		"tenders" : [11,12,13]
+	}
+	{
+		"_id" : 8,
+		"username" : "G496",
+		"password" : "123123",
+		"role" : "registered",
+		"profile" : {
+			"firstname": "Giorgio",
+			"lastname" : "Galapinhos",
+			"birth date" : "1993/10/10",
+			"place of birth" : "Greece",
+			"nationality" : "Greek",
+			"email" : "ggthory@btb.gr",
+			"address" : {
+				"postcode" : 8888,
+				"country" : "Greece",
+				"city" : "Sidari",
+				"street" : "Village St",
+				"house number" : 16,
+				"state" : null
+			}
+		},
+		"tenders" : [14,15,16]
+	}
+	{
+		"_id" : 9,
+		"username" : "HunHuni",
+		"password" : "hunihuni",
+		"role" : "registered",
+		"profile" : {
+			"firstname": "Hunor",
+			"lastname" : "Hernadi",
+			"birth date" : "1996/07/30",
+			"place of birth" : "Hungary",
+			"nationality" : "Hungarian",
+			"email" : "huni299@citromail.hu",
+			"address" : {
+				"postcode" : 9999,
+				"country" : "Hungary",
+				"city" : "Hidvegardo",
+				"street" : "Hentes St",
+				"house number" : 65,
+				"state" : null
+			}
+		},
+		"tenders" : []
+	}
+	{
+		"_id" : 10,
+		"username" : "eval",
+		"password" : "eval",
+		"role" : "evaluator",
+		"profile" : {
+			"firstname": "Igor",
+			"lastname" : "Ignacy",
+			"birth date" : "1980/09/14",
+			"place of birth" : "Hungary",
+			"nationality" : "Hungarian",
+			"email" : "evaluator@eval.com",
+			"address" : {
+				"postcode" : 9999,
+				"country" : "Hungary",
+				"city" : "Hidvegardo",
+				"street" : "Hentes St",
+				"house number" : 65,
+				"state" : null
+			}
+		},
+		"tenders" : [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
+	}

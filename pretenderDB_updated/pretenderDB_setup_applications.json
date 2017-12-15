@@ -1,0 +1,244 @@
+
+	{
+		"_id" : 1,
+		"referenceID" : 10001,
+		"tendertype" : 1,
+		"user" : "Abi00",
+		"lastedited" : "2017/11/17",
+		"finilized" : 0,
+		"data" : {
+			"firstname" : "Abigail",
+			"lastname" : "Anderson",
+			"university" : "University of Sydney",
+			"student code" : "OPR445",
+			"scholarship index" : 3.78,
+			"credits successfully completed" : 18,
+			"recommendation" : "Excellent student, ambitious, hardworking : Prof. Herman Stanley",
+			"documents" : ["copy_of_classes_finished.jpg"]
+		}
+	}
+	{
+		"_id" : 2,
+		"referenceID" : 20001,
+		"tendertype" : 2,
+		"user" : "ditteditte",
+		"lastedited" : "2017/11/30",
+		"finilized" : 0,
+		"data" : {
+			"firstname" : "Ditte",
+			"lastname" : "Dorson",
+			"age" : 19,
+			"university" : "Stockholm University",
+			"sports club" : "ISUS",
+			"documents" : ["active_student_status_university_of_stockholm.pdf","certificate_european_championship_2016.jpg"]
+		}
+	}
+	{
+		"_id" : 3,
+		"referenceID" : 20002,
+		"tendertype" : 2,
+		"user" : "Abi00",
+		"lastedited" : "2017/11/17",
+		"finilized" : 0,
+		"data" : {
+			"firstname" : "Abigail",
+			"lastname" : "Anderson",
+			"age" : 37,
+			"university" : "University of Sydney",
+			"sports club" : "FC-US",
+			"note" : "Our football club is in need of proper equipment for advanced goalkeeper practice."
+		}
+	}
+	{
+		"_id" : 4,
+		"referenceID" : 30001,
+		"tendertype" : 3,
+		"user" : "Abi00",
+		"lastedited" : "2017/11/17",
+		"finilized" : 0,
+		"data" : {
+			"firstname" : "Abigail",
+			"lastname" : "Anderson",
+			"description" : "My name is Abigail Anderson from the University of Sydney with a scholarship index of 3.78. I am also a goalkeeper for the football club at the university and would like to document my upcoming year, in which our team will be participating in the National League while I will also be graduating. This combination of events fits the theme 'Sports enchance learning'."
+		}
+	}
+	{
+		"_id" : 5,
+		"referenceID" : 40001,
+		"tendertype" : 4,
+		"user" : "Cecil",
+		"lastedited" : "2017/08/03",
+		"finilized" : 1,
+		"data" : {
+			"firstname": "Cecilia",
+			"lastname" : "Cage",
+			"student code" : "ZZS451",
+			"destination" : "University of Tokyo",
+			"duration" : "half semester",
+			"university" : "University of Debrecen"
+		}
+	}
+	{
+		"_id" : 6,
+		"referenceID" : 10002,
+		"tendertype" : 1,
+		"user" : "Cecil",
+		"lastedited" : "2017/12/08",
+		"finilized" : 1,
+		"data" : {
+			"firstname": "Cecilia",
+			"lastname" : "Cage",
+			"university" : "University of Debrecen",
+			"student code" : "ZZS451",
+			"scholarship index" : 4.2,
+			"credits successfully completed" : 30
+		}
+	}
+	{
+		"_id" : 7,
+		"referenceID" : 40002,
+		"tendertype" : 4,
+		"user" : "ditteditte",
+		"lastedited" : "2017/11/30",
+		"finilized" : 0,
+		"data" : {
+			"firstname" : "Ditte",
+			"lastname" : "Dorson",
+			"student code" : "WWC556",
+			"destination" : "University of Calgary",
+			"duration" : "full semester",
+			"university" : "Stockholm University"
+		}
+	}
+	{
+		"_id" : 8,
+		"referenceID" : 30002,
+		"tendertype" : 3,
+		"user" : "Edgar751",
+		"lastedited" : "2017/12/17",
+		"finilized" : 0,
+		"data" : {
+			"firstname" : "Edgar",
+			"lastname" : "Emerith",
+			"description" : "My name is Edgar Emerith, my goal in life is to become a part of the Capri Theatre Group in my city Montgomery."
+		}
+	}
+	{
+		"_id" : 9,
+		"referenceID" : 10003,
+		"tendertype" : 1,
+		"user" : "Fr3d",
+		"lastedited" : "2017/09/11",
+		"finilized" : 1,
+		"data" : {
+			"firstname": "Frederick",
+			"lastname" : "Fitzmorphy",
+			"university" : "University of Utah",
+			"student code" : "LLP998",
+			"scholarship index" : 5.0,
+			"credits successfully completed" : 35
+		}
+	}
+	{
+		"_id" : 10,
+		"referenceID" : 10004,
+		"tendertype" : 1,
+		"user" : "Fr3d",
+		"lastedited" : "2017/09/11",
+		"finilized" : 1,
+		"data" : {
+			"firstname": "Frederick",
+			"lastname" : "Fitzmorphy",
+			"university" : "University of Utah",
+			"student code" : "LLP998",
+			"scholarship index" : 5.0,
+			"credits successfully completed" : 35
+		}
+	}
+	{
+		"_id" : 11,
+		"referenceID" : 10005,
+		"tendertype" : 1,
+		"user" : "GaleGG",
+		"lastedited" : "2017/06/06",
+		"finilized" : 1,
+		"data" : {
+			"firstname": "Gale",
+			"lastname" : "Gambit",
+			"university" : "University of California, Los Angeles",
+			"student code" : "LKJ635",
+			"scholarship index" : 3.7,
+			"credits successfully completed" : 25
+		}
+	}
+	{
+		"_id" : 12,
+		"referenceID" : 20003,
+		"tendertype" : 2,
+		"user" : "GaleGG",
+		"lastedited" : "2017/12/01",
+		"finilized" : 1,
+		"data" : {
+			"firstname" : "Gale",
+			"lastname" : "Gambit",
+			"age" : 22,
+			"university" : "University of California, Los Angeles",
+			"sports club" : "UCLA-VB",
+			"note" : "Player of the year 2017"
+		}
+	}
+	{
+		"_id" : 13,
+		"referenceID" : 20004,
+		"tendertype" : 2,
+		"user" : "GaleGG",
+		"lastedited" : "2017/12/01",
+		"finilized" : 1,
+		"data" : {
+			"firstname" : "Gale",
+			"lastname" : "Gambit",
+			"age" : 22,
+			"university" : "University of California, Los Angeles",
+			"sports club" : "UCLA-VB",
+			"note" : "Winners of the National Finals"
+		}
+	}
+	{
+		"_id" : 14,
+		"referenceID" : 30003,
+		"tendertype" : 3,
+		"user" : "G496",
+		"lastedited" : "2017/12/08",
+		"finilized" : 0,
+		"data" : {
+			"firstname" : "Giorgio",
+			"lastname" : "Galapinhos",
+			"description" : "I am a local tourist guide in Sidari working for Antelope Travel Company. My speciality is the religious history of Sidari. My knowledge on the religious background of Sidari can be a good asset for the renovating team."
+		}
+	}
+	{
+		"_id" : 15,
+		"referenceID" : 30004,
+		"tendertype" : 3,
+		"user" : "G496",
+		"lastedited" : "2017/12/08",
+		"finilized" : 0,
+		"data" : {
+			"firstname" : "Giorgio",
+			"lastname" : "Galapinhos",
+			"description" : "I am a local tourist guide in Sidari working for Antelope Travel Company. Currently I am touring 15 groups a week in Sidari."
+		}
+	}
+	{
+		"_id" : 16,
+		"referenceID" : 30005,
+		"tendertype" : 3,
+		"user" : "G496",
+		"lastedited" : "2017/12/08",
+		"finilized" : 0,
+		"data" : {
+			"firstname" : "Giorgio",
+			"lastname" : "Galapinhos",
+			"description" : "I am a local tourist guide in Sidari working for Antelope Travel Company. I belive with our renovating work at Sidari, we will be able to improve local tourism and heighten the cultural standards."
+		}
+	}

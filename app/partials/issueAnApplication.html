@@ -1,0 +1,25 @@
+<div ng-if = "successfulLogin" class = "container-fluid">
+        <h2>Cultural scholarship form:</h2>
+    <form class = "form-horizontal" ng-submit = "submitApplication()">
+            <div class = "form-group">
+                <div class = "col-sm-10">
+                    <input type = "text" class = "form-control" id = "firstname" placeholder = "Enter firstname" ng-model="newApplication.firstname"/>
+                </div>
+            </div>
+            <div class = "form-group">
+                <div class = "col-sm-10">
+                    <input type = "text" class = "form-control" id = "lastname" placeholder = "Enter lastname" ng-model="newApplication.lastname"/>
+                </div>
+            </div>
+            <div class = "form-group">
+                <div class = "col-sm-10">
+                    <input type = "text" class = "form-control" id = "description" placeholder = "Why are you applying?" ng-model="newApplication.description"/>
+                </div>
+            </div>
+            <div class = "form-group">
+                <div class = "col-sm-10">
+                    <input type = "submit" class = "btn btn-primary" value = "Submit application" />
+                </div>
+            </div>
+        </form>
+</div>

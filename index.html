@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html ng-app = "pretenderApp">
+  <head>
+    <title>PreTender</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+    <meta charset="UTF-8">
+  </head>
+  <body ng-controller = "pretenderMainController">
+    <div class = "container">
+        <div class = "page-header">
+                   <h1>PreTender</h1>
+        </div>
+    </div>
+    <nav class = "navbar navbar-inverse">
+        <div class = "container-fluid">
+          <div class = "navbar-header">
+            <a ng-if = "successfulLogin" class = "navbar-brand" href = "#!loggedInUser">Welcome {{user.username}}!</a>
+          </div>
+          <ul class = "nav navbar-nav">
+            <li ng-show = "!successfulLogin"><a href = "#!login">Login</a></li>
+            <li ng-show = "!successfulLogin"><a href = "#!registration">Create new account</a></li>
+          </ul>
+          <ul class = "nav navbar-nav navbar-right">
+            <li ng-show = "successfulLogin">
+              <a href = "#!editUser" >Edit profile <span class = "glyphicon glyphicon-user"></span></a>
+            </li>
+            <li ng-show= "successfulLogin">
+              <a href = "#!" ng-click = "logout()">Logout<span class = "glyphicon glyphicon-log-out"></span></a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <div>
+      <div ng-view></div>
+    </div>
+
+
+    <!-- App libs -->
+    <script src = "./app/app.js"></script>
+    <script src = "./app/controllers/controllers.js"></script>
+  </body>
+</html>

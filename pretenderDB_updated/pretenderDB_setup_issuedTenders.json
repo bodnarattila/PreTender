@@ -1,0 +1,114 @@
+
+	{
+		"_id" : 10001,
+		"issuedate" : "2016/08/25",
+		"deadline": "2017/12/17",
+		"type" : "educational scholarship",
+		"description" : "Monthly support by the University of Sydney for all those students with 18 or more successfully completed credits and a scholarship index over 2.89"
+	}
+	{
+		"_id" : 10002,
+		"issuedate" : "2017/11/01",
+		"deadline": "2018/02/03",
+		"type" : "educational scholarship",
+		"description" : "Monthly support by Budapest University of Technology and Economics for all those students with 14 or more successfully completed credits and a scholarship index over 3.00."
+	}
+	{
+		"_id" : 10003,
+		"issuedate" : "2017/08/30",
+		"deadline": "2017/12/13",
+		"type" : "educational scholarship",
+		"description" : "Monthly support by the University of Utah for all those students with 14 or more successfully completed credits and a scholarship index over 2.5."
+	}
+	{
+		"_id" : 10004,
+		"issuedate" : "2017/08/30",
+		"deadline": "2017/12/13",
+		"type" : "educational scholarship",
+		"description" : "The University of Utah is financing a full semester for all those students with 20 or more successfully completed credits and a scholarship index over 4.0."
+	}
+	{
+		"_id" : 10005,
+		"issuedate" : "2017/05/05",
+		"deadline": "2017/12/31",
+		"type" : "educational scholarship",
+		"description" : "The University of California, Los Angeles is financing a full semester for all those students with 18 or more successfully completed credits and a scholarship index over 3.8."
+	}
+	{
+		"_id" : 20001,
+		"issuedate" : "2017/03/04",
+		"deadline" : "2017/12/28",
+		"type" : "athletic scholarship",
+		"description" : "Due to the upcoming winter olimpics, several positions are now open for university students between 18-25 in the local ice skating team (ISUS) at the University of Stockholm."
+	}
+	{
+		"_id" : 20002,
+		"issuedate" : "2017/02/14",
+		"deadline" : "2017/12/04",
+		"type" : "athletic scholarship",
+		"description" : "All students with active student status at their universities over the age of 18, can now apply for new equipment for their sports team!"
+	}
+	{
+		"_id" : 20003,
+		"issuedate" : "2016/12/06",
+		"deadline" : "2017/12/06",
+		"type" : "athletic scholarship",
+		"description" : "UCLA volleyball team offering financial funding for top performing players!"
+	}
+	{
+		"_id" : 20004,
+		"issuedate" : "2016/12/06",
+		"deadline" : "2017/12/06",
+		"type" : "athletic scholarship",
+		"description" : "UCLA volleyball team offering equipment for top performing teams!"
+	}
+	{
+		"_id" : 30001,
+		"issuedate" : "2017/05/06",
+		"deadline" : "2017/12/20",
+		"type" : "cultural scholarship",
+		"description" : "G2G is announcing an amateur documentary film scholarship with the theme : 'Sports enchance learning', where they are looking for students active in sports while maintaining high educational scores."
+	}
+	{
+		"_id" : 30002,
+		"issuedate" : "2017/01/04",
+		"deadline" : "2017/12/31",
+		"type" : "cultural scholarship",
+		"description" : "Full year theatre tickets are obtainable by applying to the program issued by Capri Theatre."
+	}
+	{
+		"_id" : 30003,
+		"issuedate" : "2017/03/11",
+		"deadline" : "2018/03/11",
+		"type" : "cultural scholarship",
+		"description" : "Looking for candidates to restore the temple of Sidari!"
+	}
+	{
+		"_id" : 30004,
+		"issuedate" : "2017/03/11",
+		"deadline" : "2018/03/11",
+		"type" : "cultural scholarship",
+		"description" : "Sidari is now offering financial support for tourists guides!"
+	}
+	{
+		"_id" : 30005,
+		"issuedate" : "2017/03/11",
+		"deadline" : "2018/03/11",
+		"type" : "cultural scholarship",
+		"description" : "Corfu is offering a one time cultural scholarship with the aim to improve the cultural and scientific life of the island!"
+	}
+	{
+		"_id" : 40001,
+		"issuedate" : "2017/07/03",
+		"deadline" : "2017/12/22",
+		"type" : "study abroad scholarship",
+		"description" : "The University of Debrecen is announcing an abroud scholarship to the United States, Canada and Japan for a half semester. The University of Tokyo, University of Calgary, Stanford University are welcoming students from around the world."
+	}
+	{
+		"_id" : 40002,
+		"issuedate" : "2017/07/10",
+		"deadline" : "2018/04/21",
+		"type" : "study abroad scholarship",
+		"description" : "Stockholm University is announcing an abroud scholarship to the United States, Canada and Japan for a half semester. The University of Tokyo, University of Calgary, Stanford University are welcoming students from around the world."
+	}
+

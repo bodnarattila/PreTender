@@ -1,0 +1,128 @@
+<div class = "container-fluid">
+  <div ng-if = "successfulLogin">
+    <button type="button" class="btn btn-primary" ng-show = "!listIssuedTendersAsked" ng-click = "listIssuedTenders()">List all issued tenders!</button>
+    <table ng-if = "listIssuedTendersAsked" class = "table">
+      <tr>
+        <th>_id</th>
+        <th>IssueDate</th>
+        <th>Deadline</th>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+        <tr ng-repeat = "tender in issuedTenders">
+          <td ng-repeat = "field in tender">{{field}}</td>
+        </tr>
+    </table>
+    <button type="button" class="btn btn-primary" ng-show = "listIssuedTendersAsked" ng-click = "closeIssuedTenders()">Close all issued tenders!</button>
+    <button type="button" class="btn btn-primary" ng-show = "!listUserApplicationsAsked" ng-click = "listUserApplications()">List users applications!</button>
+    <table ng-if = "listUserApplicationsAsked" class = "table">
+        <tr>
+          <th>_id</th>
+          <th>ReferenceID</th>
+          <th>Tendertype</th>
+          <th>User</th>
+          <th>Last edited</th>
+          <th>Finilized</th>
+          <th>Data</th>
+        </tr>
+        <tr ng-repeat = "application in usersApplicationsArray">
+          <td ng-repeat = "field in application"> {{field}}</td>
+        </tr>
+    </table>
+    <button type="button" class="btn btn-primary" ng-show = "listUserApplicationsAsked" ng-click = "closeUserApplications()">Close users applications!</button>
+    <button type="button" class="btn btn-primary" ng-show = "!listTenderTypesAsked" ng-click = "listTenderTypes()">List tender types!</button>
+    <table ng-if = "listTenderTypesAsked" class = "table">
+      <tr>
+        <th>_id</th>
+        <th>Type</th>
+        <th>Requirements</th>
+      </tr>
+        <tr ng-repeat = "tenderType in allTenderTypes">
+          <td ng-repeat = "field in tenderType">{{field}}</td>
+        </tr>
+    </table>
+    <button type="button" class="btn btn-primary" ng-show = "listTenderTypesAsked" ng-click = "closeTenderTypes()">Close tender types!</button>
+    <button type="button" class="btn btn-primary" ng-click = "issueAnApplication()">Issue an application!</button>
+  </div>
+  <div ng-if = "successfulLogin">
+      <hr/>
+      <table class = "table  table-hover">
+        <tr>
+          <td>Username:</td>
+          <td>{{user.username}}</td>
+        </tr>
+        <tr>
+          <td>Role:</td>
+          <td>{{user.role}}</td>
+        </tr>
+        <tr>
+          <td>Profile:</td>
+          <td>
+            <tr>
+              <td>Firstname:</td>
+              <td>{{user.profile.firstname}}</td>
+            </tr>
+            <tr>
+              <td>Lastname:</td>
+              <td>{{user.profile.lastname}}</td>
+            </tr>
+            <tr>
+              <td>Birth date:</td>
+              <td>{{user.profile['birth date']}}</td>
+            </tr>
+            <tr>
+              <td>Place of birth:</td>
+              <td>{{user.profile['place of birth']}}</td>
+            </tr>
+            <tr>
+              <td>Nationality:</td>
+              <td>{{user.profile.nationality}}</td>
+            </tr>
+            <tr>
+              <td>E-mail:</td>
+              <td>{{user.profile.email}}</td>
+            </tr>
+            <tr>
+              <td>Address:</td>
+              <td>
+                  <tr>
+                      <td>Postcode:</td>
+                      <td>{{user.profile.address.postcode}}</td>
+                  </tr>
+                  <tr>
+                      <td>Country:</td>
+                      <td>{{user.profile.address.country}}</td>
+                  </tr>
+                  <tr>
+                      <td>City:</td>
+                      <td>{{user.profile.address.city}}</td>
+                  </tr>
+                  <tr>
+                      <td>Street:</td>
+                      <td>{{user.profile.address.street}}</td>
+                  </tr>
+                  <tr>
+                      <td>House number:</td>
+                      <td>{{user.profile.address['house number']}}</td>
+                  </tr>
+                  <tr>
+                      <td>State:</td>
+                      <td>{{user.profile.address.state}}</td>
+                  </tr>
+              </td>
+            </tr>
+          </td>
+        </tr>
+        <tr>
+          <td>Tenders:</td>
+          <td>
+            <tr ng-repeat = "tender in user.tenders">
+              <td>
+                {{tender}}
+              </td>
+            </tr>
+          </td>
+        </tr>
+      </table>
+	</div>
+</div>

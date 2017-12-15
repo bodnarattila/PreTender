@@ -1,0 +1,73 @@
+
+		{
+			"_id" : 1,
+			"type" : "educational scholarship",
+			"requirements" : {
+				"university" : {
+					"required" : 1,
+					"type" : "String"
+				},
+				"student code" : {
+					"required" : 1,
+					"type" : "String"
+				},
+				"scholarship index" : {
+					"required" : 1,
+					"type" : "Number"
+				},
+				"credits successfully completed": {
+					"required" : 1,
+					"type" : "Number"
+				}
+			}
+		}
+		{
+			"_id" : 2,
+			"type" : "athletic scholarship",
+			"requirements" : {
+				"age" : {
+					"required" : 1,
+					"type" : "Number"
+				},
+				"active student status" : {
+					"required" : 1,
+					"type" : "String"
+				},
+				"sports club" : {
+					"required" : 1,
+					"type" : "String"
+				}
+			}
+		}
+		{
+			"_id" : 3,
+			"type" : "cultural scholarship",
+			"requirements" : {
+				"description" : {
+					"required" : 1,
+					"type" : "String"
+				}
+			}
+		}
+		{
+			"_id" : 4,
+			"type" : "study abroad scholarship",
+			"requirements" : {
+				"student code" : {
+					"required" : 1,
+					"type" : "String"
+				},
+				"destination" : {
+					"required" : 1,
+					"type" : "String"
+				},
+				"duration" : {
+					"required" : 1,
+					"type" : "String"
+				},
+				"university" : {
+					"required" : 1,
+					"type" : "String"
+				}
+			}
+		}
